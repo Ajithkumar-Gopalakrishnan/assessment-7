@@ -1,0 +1,11 @@
+a=[]
+b=' '
+sortedstring=' '
+count=65
+while len(a)<len(str1):
+       for i in str1:
+            if ord(i)==count:
+                 a.append(i);
+       count+=1;
+sortedstring=(', '.join(a))
+print("The Sorted output is : ",sortedstring);
