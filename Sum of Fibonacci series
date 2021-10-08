@@ -1,0 +1,12 @@
+arr=[]
+n=int(input ("enter the number:")) 
+val1=0
+val2=1
+for i in range(n):
+  arr.append(val2) 
+  fib=val1+val2
+  val1=val2
+  val2=fib
+  sum= fib+ val2
+  arr.append(sum)
+  print("The sum of fibbinocci series",val2-1)
