@@ -1,0 +1,7 @@
+str=input("Enter a string : ")
+n=len(str);
+space=' '
+print("The Reverse string is :" )
+for i in range(n-1,-1,-1):
+     space=space+str[i];
+print(space);
